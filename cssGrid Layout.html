@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: grid;
+            grid-template-rows: repeat(4, auto); /* 4 แถว */
+            gap: 10px; /* ระยะห่างระหว่างแถว */
+            text-align: center;
+        }
+
+        .row-1 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 ช่อง */
+            gap: 10px; /* ระยะห่างระหว่างช่อง */
+        }
+
+        .row-2 {
+            display: grid;
+            grid-template-columns: 1fr; /* 1 ช่อง */
+            gap: 10px; /* ระยะห่างระหว่างช่อง */
+        }
+
+        .row-3 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 ช่อง */
+            gap: 10px; /* ระยะห่างระหว่างช่อง */
+        }
+
+        .row-4 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 ช่อง */
+            gap: 10px; /* ระยะห่างระหว่างช่อง */
+        }
+
+        .box {
+            background-color: #A26F49;
+            padding: 20px;
+            color: #FEDCB3;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="row-1">
+        <div class="box">1</div>
+        <div class="box">2</div>
+    </div>
+
+    <div class="row-2">
+        <div class="box">1</div>
+    </div>
+
+    <div class="row-3">
+        <div class="box">1</div>
+        <div class="box">2</div>
+    </div>
+
+    <div class="row-4">
+        <div class="box">1</div>
+        <div class="box">2</div>
+    </div>
+</body>
+</html>
